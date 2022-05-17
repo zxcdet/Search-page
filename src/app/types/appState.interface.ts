@@ -1,0 +1,1 @@
+import { ArticleStateInterface } from './ArticleState.interface';export interface AppStateInterface {  auth: ArticleStateInterface}

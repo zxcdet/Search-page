@@ -1,0 +1,1 @@
+import { ArticleInterface } from './article.interface';export interface ArticleStateInterface {  isLoading: boolean,  article: ArticleInterface[] | null  validationErrors: string}

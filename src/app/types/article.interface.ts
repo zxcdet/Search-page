@@ -1,0 +1,1 @@
+export interface ArticleInterface {  id: number  author: string;  content: string;  summary: string;  publishedAt: string;  title: string;  url: string;  imageUrl: string;}

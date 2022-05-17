@@ -1,0 +1,1 @@
+import { Observable } from 'rxjs';import { ArticleInterface } from '../../../types/article.interface';export interface ArticleServiceInterface {  getArticle(id: string): Observable<ArticleInterface>}

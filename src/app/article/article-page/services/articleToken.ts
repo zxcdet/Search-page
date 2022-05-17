@@ -1,0 +1,1 @@
+import { inject, InjectionToken } from '@angular/core';import { Store } from '@ngrx/store';import { ArticleServiceInterface } from './article-service.interface';import { ArticleDefaultService } from './article-default.service';export const ARTICLE_TOKEN = new InjectionToken<ArticleServiceInterface>("Article",{  factory: () => new ArticleDefaultService(inject(Store))})

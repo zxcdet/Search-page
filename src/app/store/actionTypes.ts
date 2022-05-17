@@ -1,0 +1,1 @@
+export enum ActionTypes {  GET_ARTICLE = '[Rate] Get Rate',  GET_ARTICLE_SUCCESS = '[Rate] Get Rate Success',  GET_ARTICLE_FAILURE = '[Rate] Get Rate Failure',}
