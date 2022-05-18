@@ -1,10 +1,6 @@
 {
   "name": "search-page",
   "version": "0.0.0",
-  "engines": {
-    "node": "16.13.1",
-    "npm": "8.2.1"
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
